@@ -4113,7 +4113,7 @@ html {
 /*音乐的背景图片 会转的那个 */
 .swiper-pagination1:before {
 	content: '';
-	background: url("../img/lu.jpg") no-repeat;
+	background: url("../img/timg.jpg") no-repeat;
 	background-size: 100% 100%;
 	width: 40px;
 	height: 40px;
@@ -4403,7 +4403,7 @@ html {
 	width: 83px;
 	height: 83px;
 	/*旋转按钮图片*/
-	background: url("../img/sgai.jpg") no-repeat #6bc30d;
+	background: url("../img/guanbi.jpg") no-repeat #6bc30d;
 	border-radius: 50%;
 	border: 5px solid #c4e79e;
 	background-position: center center;
@@ -4694,27 +4694,27 @@ html {
 }
 
 .W-work9 {
-	background: url("../img/1.jpg") no-repeat
+	background: url("../img/phone1.jpg") no-repeat
 }
 
 .W-work10 {
-	background: url("../img/1.jpg") no-repeat
+	background: url("../img/phone1.jpg") no-repeat
 }
 
 .W-work11 {
-	background: url("../img/1.jpg") no-repeat
+	background: url("../img/phone1.jpg") no-repeat
 }
 
 .W-work12 {
-	background: url("../img/1.jpg") no-repeat
+	background: url("../img/phone1.jpg") no-repeat
 }
 
 .W-work13 {
-	background: url("../img/1.jpg") no-repeat
+	background: url("../img/phone1.jpg") no-repeat
 }
 
 .W-work14 {
-	background: url("../img/1.jpg") no-repeat
+	background: url("../img/phone1.jpg") no-repeat
 }
 
 .W-work1,
@@ -4937,7 +4937,7 @@ html {
 
 /*手机端的QQ和微信图片*/
 .W-lian-bottom .W-qq {
-	background: url("?Anti-stealing-link=img&path=myqq.jpg") no-repeat transparent;
+	background: url("../img/weqq.jpg") no-repeat transparent;
 	background-size: cover
 }
 
@@ -4948,7 +4948,7 @@ html {
 }
 
 .W-lian-bottom .W-weixin {
-	background: url("?Anti-stealing-link=img&path=myweixin.jpg") no-repeat transparent;
+	background: url("../img/wechat.jpg") no-repeat transparent;
 	background-size: cover
 }
 
@@ -6313,7 +6313,7 @@ html {
 		text-align: center;
 		padding-bottom: 5%;
 		overflow: hidden;
-		background: url("../img/6.jpg") no-repeat;
+		background: url("../img/mtlun.jpg") no-repeat;
 		background-position: center center;
 		background-size: cover
 	}
