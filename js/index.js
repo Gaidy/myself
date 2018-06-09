@@ -9030,22 +9030,22 @@ $(function() {
 //		}
 		var Wjn = [{
 			"color": "#1abc9c",
-			"text": "射手"
+			"text": "jQuery"
 		}, {
 			"color": "#e74c3c",
-			"text": "法师"
+			"text": "CSS3"
 		}, {
 			"color": "#34495e",
-			"text": "战士"
+			"text": "HTML5"
 		}, {
 			"color": "#3498db",
-			"text": "坦克"
+			"text": "Python"
 		}, {
 			"color": "#d35400",
-			"text": "辅助"
+			"text": "JavaScript"
 		}, {
 			"color": "#9b59b6",
-			"text": "打野"
+			"text": "PHP"
 		}];
 		$('.Ws-tu').find('.Ws-PHOTOSHOP').each(function(index) {
 			$(this).find('em').text(Wjn[index].text);
