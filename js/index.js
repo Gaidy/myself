@@ -1,4 +1,3 @@
-
 /**
  * Swiper 3.4.1
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -8674,7 +8673,7 @@ $(window).load(function() {
 });
 $(function() {
 	(function() {
-		console.log('Hi! 朋友，感谢您愿意调试简历代码。\n如果您有什么建议或者想学习前端，欢迎您加入我们,我们互相学习，共同进步^_^。\nQQ(1015393113)');
+		console.log('Hi! 朋友，感谢您愿意调试简历代码。\n如果您有什么建议或者想学习前端，欢迎您加入我们,我们互相学习，共同进步^_^。\nQQ:1015393113)');
 		setTimeout(function() {
 			$('body').addClass('loaded')
 		}, 400);
@@ -8811,7 +8810,7 @@ $(function() {
 			return false
 		});
 		$('.W-introduce-me').on('click', function() {
-			window.open('https://fond.work')
+			window.open('https://show8.github.io')
 		});
 		$('.W-time').hover(function() {
 			$(this).css({
@@ -8991,7 +8990,7 @@ $(function() {
 		if(!!window.ActiveXObject || "ActiveXObject" in window) {
 			$('.W-introduce-me').find('img').hide();
 			$('.W-introduce-me').css({
-				'background': 'url(../img/sgai.jpg) no-repeat',
+				'background': 'url(?Anti-stealing-link=img&path=me1.jpg) no-repeat',
 				'background-size': 'cover'
 			})
 		}
@@ -9019,33 +9018,32 @@ $(function() {
 				$('.W-pinglun').stop(true, true).hide()
 			}, 600)
 		});
-//		用js选择手机图片头像
 //		var Imgatr = ['?Anti-stealing-link=img&path=WS1.jpg', '?Anti-stealing-link=img&path=WS2.jpg', '?Anti-stealing-link=img&path=WS3.jpg'];
 //		var url = Imgatr[Math.floor(Math.random() * Imgatr.length)];
 //		$('.W-yi-bg').css('background-image', 'url(' + url + ')');
 //		if(url == "?Anti-stealing-link=img&path=WS3.jpg") {
-//			$('.Ws-tou').find('../img').attr('src', '1.jpg')
+//			$('.Ws-tou').find('img').attr('src', '?Anti-stealing-link=img&path=me2.jpg')
 //		} else {
-//			$('.Ws-tou').find('../img').attr('src', '1.jpg')
+//			$('.Ws-tou').find('img').attr('src', '?Anti-stealing-link=img&path=me1.jpg')
 //		}
 		var Wjn = [{
 			"color": "#1abc9c",
-			"text": "jQuery"
+			"text": "PHOTOSHOP"
 		}, {
 			"color": "#e74c3c",
-			"text": "CSS3"
+			"text": "PYTHON"
 		}, {
 			"color": "#34495e",
 			"text": "HTML5"
 		}, {
 			"color": "#3498db",
-			"text": "Python"
+			"text": "JQUERY"
 		}, {
 			"color": "#d35400",
-			"text": "JavaScript"
+			"text": "javascript"
 		}, {
 			"color": "#9b59b6",
-			"text": "PHP"
+			"text": "CSS3"
 		}];
 		$('.Ws-tu').find('.Ws-PHOTOSHOP').each(function(index) {
 			$(this).find('em').text(Wjn[index].text);
@@ -9061,11 +9059,11 @@ $(function() {
 				})
 			}
 		});
-		var top = $('.Ws-me').find('.Ws-me-title').offset().top - 65,
-			top1 = $('.Ws-ji').find('.Ws-me-title').offset().top - 65,
-			top2 = $('.Ws-jing').find('.Ws-me-title').offset().top - 65,
-			top3 = $('.Ws-zuo').find('.Ws-me-title').offset().top - 65,
-			top4 = $('.Ws-lianxi').find('.Ws-me-title').offset().top - 65;
+		var top = $('.Ws-me').find('.me').offset().top - 65,
+			top1 = $('.Ws-ji').find('.ji').offset().top - 65,
+			top2 = $('.Ws-jing').find('.jing').offset().top - 65,
+			top3 = $('.Ws-zuo').find('.zuo').offset().top - 65,
+			top4 = $('.Ws-lianxi').find('.lianxi').offset().top - 65;
 		if($(window).width() <= 770) {
 			$('.swiper-container,.W-head-portrait,.nav-yuan,.bg-3,.W-page2,.W-s-yyue').removeClass('swiper-slide-blur');
 			$('.nav-toggle').hover(function() {
@@ -9127,27 +9125,27 @@ $(function() {
 				topzuo = top3 - topH,
 				toplian = top4 - topH;
 			if($(window).scrollTop() > 10) {
-				$('.Ws-me').find('.Ws-me-title i').animate({
+				$('.Ws-me').find('.me i').animate({
 					"width": 60
 				}, 1000)
 			};
 			if(topc < $(window).height() - 40) {
-				$('.Ws-ji').find('.Ws-me-title i').animate({
+				$('.Ws-ji').find('.ji i').animate({
 					"width": 80
 				}, 1000)
 			};
 			if(topji < $(window).height() - 40) {
-				$('.Ws-jing').find('.Ws-me-title i').animate({
+				$('.Ws-jing').find('.jing i').animate({
 					"width": 80
 				}, 1000)
 			};
 			if(topzuo < $(window).height() - 40) {
-				$('.Ws-zuo').find('.Ws-me-title i').animate({
+				$('.Ws-zuo').find('.zuo i').animate({
 					"width": 80
 				}, 1000)
 			};
 			if(toplian < $(window).height() - 40) {
-				$('.Ws-lianxi').find('.Ws-me-title i').animate({
+				$('.Ws-lianxi').find('.lianxi i').animate({
 					"width": 60
 				}, 1000)
 			}
